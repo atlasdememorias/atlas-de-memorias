@@ -1,32 +1,50 @@
-
 <!DOCTYPE html>
 <html lang="pt">
 <head>
 <meta charset="UTF-8">
-<title>Atlas de Memórias — Miguel & Mariana</title>
+<title>Atlas de Memórias</title>
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header class="hero">
+<header>
 <h1>Atlas de Memórias</h1>
-<p>As viagens de Miguel e Mariana pela Europa</p>
+<p>As viagens de Miguel & Mariana</p>
 </header>
 
-<div class="search">
-<input id="search" placeholder="Procurar cidade...">
+<nav>
+<a href="index.html">Início</a>
+<a href="cidades/roma.html">Roma</a>
+</nav>
+
+<section class="hero">
+<h2>Histórias de viagem pela Europa</h2>
+<p>Relatos reais das nossas viagens, entre monumentos históricos e restaurantes inesquecíveis.</p>
+</section>
+
+<section class="posts">
+
+<div class="post-card">
+
+<img src="https://images.unsplash.com/photo-1552832230-c0197dd311b5">
+
+<h3>Roma</h3>
+
+<p>
+Três dias intensos entre o Coliseu, o Vaticano e os restaurantes que fazem da capital italiana
+um dos melhores destinos gastronómicos do mundo.
+</p>
+
+<a href="cidades/roma.html">Ler história</a>
+
 </div>
 
-<div id="posts" class="grid"></div>
+</section>
 
-<div id="viewer" class="viewer hidden">
-<button onclick="closePost()">← Voltar</button>
-<h2 id="title"></h2>
-<img id="heroImg">
-<img id="foodImg">
-<div id="content"></div>
-</div>
+<footer>
+<p>Atlas de Memórias — Miguel & Mariana</p>
+</footer>
 
-<script src="script.js"></script>
 </body>
 </html>
